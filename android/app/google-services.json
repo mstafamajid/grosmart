@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1095195974280",
+    "project_id": "grocmart-17173",
+    "storage_bucket": "grocmart-17173.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095195974280:android:ba453a1335d78c6ec79d3d",
+        "android_client_info": {
+          "package_name": "com.example.grosmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095195974280-e5adii9ounfkhb3abij5i97i9p1tqv4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAUKAeMhL9bfKrg9OszQsudGPp6RajIDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095195974280-e5adii9ounfkhb3abij5i97i9p1tqv4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
