@@ -3,16 +3,24 @@ import 'package:flutter/foundation.dart';
 
 class Product with ChangeNotifier{
   final String id;
+  final double  calories;
   final String categoryId;
    double price;
   final String imagePath;
   final String name;
+  final String typemesu;
+  final double numPerSale;
    Product({
+    required this.calories,
     required this.id,
     required this.categoryId,
     required this.price,
     required this.imagePath,
     required this.name,
+    required this.typemesu,
+    required this.numPerSale,
+
+
   });
 }
 
