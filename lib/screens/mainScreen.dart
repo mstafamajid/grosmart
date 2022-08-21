@@ -1,10 +1,11 @@
-import 'dart:ffi';
+
 
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
+
 import 'package:grosmart/constant.dart';
 import 'package:grosmart/dataModal/image_paths.dart';
+import 'package:grosmart/dataModal/products_list.dart';
+import 'package:grosmart/screens/widgets/Categories_itembuilder.dart';
 
 class ProductOverView extends StatelessWidget {
   const ProductOverView({Key? key}) : super(key: key);
@@ -56,8 +57,23 @@ class ProductOverView extends StatelessWidget {
             ),
           ),
           Container(
-            height: 120,
-            child: Image.asset(tomato),
+            padding: const EdgeInsets.all(25),
+            child: Image.asset(friday_offer),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 20),
+            child: const Text(
+              'Categories',
+              style: TextStyle(
+                color: black_label,
+                fontSize: 20,
+              ),
+            ),
+          ),
+          Container(
+            height: 80,
+            color: Colors.red,
+           
           )
         ],
       ),

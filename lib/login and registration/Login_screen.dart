@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:grosmart/constant.dart';
 import 'package:grosmart/login%20and%20registration/widgets/signupFields.dart';
-import '../login and registration/widgets/loginfields.dart';
+import 'widgets/loginfields.dart';
 
 class Login_registration_screen extends StatefulWidget {
   static const id = 'login_registration';

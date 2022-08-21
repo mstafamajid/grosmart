@@ -16,12 +16,14 @@ class Product with ChangeNotifier{
   });
 }
 
-class categories {
+class category{
 final  String id;
  final String name;
-  categories({
+ final String imageUrl;
+  category({
     required this.id,
     required this.name,
+    required this.imageUrl
   });
   
 }
