@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:grosmart/constant.dart';
-import 'package:grosmart/login%20and%20registration/Login_screen.dart';
+import 'package:grosmart/screens/Login_screen.dart';
+import 'package:grosmart/screens/mainScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,9 +14,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: {'/': (context) => const Login_registration_screen()},
+      debugShowCheckedModeBanner: false,
+      initialRoute: ProductOverView.nameRoute,
+      routes: {
+        ProductOverView.nameRoute: (context) => ProductOverView(),
+        '/': (context) => const Login_registration_screen()
+      },
       theme: ThemeData(
-        scaffoldBackgroundColor: const Color(0xFFF4F7FE),
+        canvasColor: const Color(0xFFF4F7FE),
+        appBarTheme: const AppBarTheme(
+            titleTextStyle: TextStyle(
+                color: green, fontSize: 34, fontWeight: FontWeight.w700)),
         textTheme: ThemeData.light().textTheme.copyWith(
               subtitle1: const TextStyle(
                   color: black_label, fontFamily: 'poppins', fontSize: 18),

@@ -1,11 +1,13 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-class products {
+import 'package:flutter/foundation.dart';
+
+class Product with ChangeNotifier{
   final String id;
   final String categoryId;
    double price;
   final String imagePath;
   final String name;
-   products({
+   Product({
     required this.id,
     required this.categoryId,
     required this.price,

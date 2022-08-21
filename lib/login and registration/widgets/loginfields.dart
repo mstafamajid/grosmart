@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:grosmart/constant.dart';
-import 'package:grosmart/login%20and%20registration/Login_screen.dart';
+import 'package:grosmart/screens/Login_screen.dart';
 
 class LoginFields extends StatefulWidget {
   void Function(BuildContext) callbackChange;
